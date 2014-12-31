@@ -1,5 +1,5 @@
 <#if package??>package ${package};
 </#if>
 
-class ${name}<#if extends??> extends ${extends}</#if> {
+public class ${name}<#if extends??> extends ${extends}</#if> {
 }
